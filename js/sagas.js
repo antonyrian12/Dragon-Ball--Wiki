@@ -20,7 +20,7 @@ fetch('https://byte12.herokuapp.com/sagas/')
             
         <h2>${sagaContent.nm_saga}</h2>
         <div>
-          <img id="picture" class="illustration" src="${sagaContent.img_saga}" alt="">
+          <img id="picture" class="illustration" src=${sagaContent.img_saga} alt="">
           <p>${sagaContent.ds_saga}</p>
         </div>
 
